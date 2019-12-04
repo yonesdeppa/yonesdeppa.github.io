@@ -1,0 +1,360 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Start Font */
+
+/* Start Body */
+body {
+    color: #24292e;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    background-image: url("images/kanisius.jpg");
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: cyan;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.snip1226 {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .snip1226 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1226 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+  }
+  .snip1226 a {
+    padding: 0.3em 0;
+    color: orangered
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+  }
+  .snip1226 a:before,
+  .snip1226 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1226 a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #e67e22;
+  }
+  .snip1226 a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: blue;
+    white-space: nowrap;
+  }
+  .snip1226 li:hover a,
+  .snip1226 .current a {
+    transform: translateY(100%);
+  }
+  /* Demo purposes only */
+  body {
+    background-color: white;
+  }
+.menu-primer a:hover {
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: blanchedalmond;
+    color: orangered;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-image: url("images/kanisius3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-position: right;
+    background-color: azure;
+    border: 1px solid bisque;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 160px;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%;
+}
+
+/* End Sidebar */
+
+/* Start Box */
+.box-heading {
+    background-color: azure;
+    border: 1px solid bisque;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: whitesmoke;
+    border: 1px solid bisque;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 4px solid navajowhite;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Layanan Table*/
+.layanan-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.layanan-table th {
+    background-color: blanchedalmond;
+}
+.layanan-table td {
+    text-align: center;
+}
+/* End Layanan Table*/
+
+/* Start Form */
+input[type="text"],
+input [type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: black;
+    font-weight: 300;
+}
+
+input[type="submit"] {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg,#fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: aliceblue;
+    border-bottom: 1px solid bisque;
+    border-top: 1px solid bisque;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a, 
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    width: 40%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
